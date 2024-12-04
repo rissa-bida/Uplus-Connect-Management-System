@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+    <div class="header">
+        <span class="back-icon" onclick="location.href='main.html';">&#8592;</span> <!-- Back Arrow Icon -->
+        <span class="icon right-icon">&#128722;</span> <!-- Placeholder for an icon -->
+    </div>
+
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form>
+            <div class="input-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="input-group">
+                <label for="ic-number">IC Number (without -)</label>
+                <input type="text" id="ic-number" name="ic-number" pattern="\d*" maxlength="12" required>
+            </div>
+            <div class="input-group">
+                <label for="school-type">School Type</label>
+                <select id="school-type" name="school-type" required>
+                    <option value="" disabled selected>Select School Type</option>
+                    <option value="sjkc">SJKC</option>
+                    <option value="sk">SK</option>
+                    <option value="smk">SMK</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="school-name">School Name</label>
+                <input type="text" id="school-name" name="school-name" required>
+            </div>
+            <div class="input-group">
+                <label for="school-grade">School Grade</label>
+                <select id="school-grade" name="school-grade" required>
+                    <option value="" disabled selected>Select School Grade</option>
+                    <option value="year1">Year 1</option>
+                    <option value="year2">Year 2</option>
+                    <option value="year3">Year 3</option>
+                    <option value="year4">Year 4</option>
+                    <option value="year5">Year 5</option>
+                    <option value="year6">Year 6</option>
+                    <option value="form1">Form 1</option>
+                    <option value="form2">Form 2</option>
+                    <option value="form3">Form 3</option>
+                    <option value="form4">Form 4</option>
+                    <option value="form5">Form 5</option>
+                </select>
+            </div>
+            <button type="submit" class="signup-button">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
