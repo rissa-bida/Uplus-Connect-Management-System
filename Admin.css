@@ -1,0 +1,90 @@
+/* General body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Dashboard container */
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #1E3A8A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Profile section */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Profile picture */
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Admin name */
+.admin-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Menu styles */
+.menu {
+    width: 100%;
+    margin-bottom: auto;
+}
+
+/* Menu item buttons */
+.menu-item {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #3B82F6;
+    border: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Menu item hover effect */
+.menu-item:hover {
+    background-color: #2563EB;
+}
+
+/* Logout button */
+.logout {
+    width: 100%;
+    padding: 10px;
+    background-color: #EF4444;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Logout button hover effect */
+.logout:hover {
+    background-color: #DC2626;
+}
+
+/* Main display area */
+.main-display {
+    flex-grow: 1;
+    background-color: #3B82F6;
+    padding: 20px;
+}
