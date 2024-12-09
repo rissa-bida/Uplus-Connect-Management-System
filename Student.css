@@ -10,20 +10,6 @@ body {
     height: 100vh;
 }
 
-/* Header styles */
-.header {
-    background-color: #1E3A8A;
-    color: white;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.home-icon {
-    cursor: pointer;
-    font-size: 24px;
-}
-
 /* Sidebar styles */
 .sidebar {
     width: 250px;
@@ -44,15 +30,15 @@ body {
     margin-bottom: 20px;
 }
 
-.profile-picture {
+.profile-icon {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #ffffff;
     margin-bottom: 10px;
 }
 
-.admin-name {
+.profile-name {
     font-size: 18px;
     font-weight: bold;
 }
@@ -68,15 +54,20 @@ body {
     padding: 10px;
     margin: 5px 0;
     color: white;
-    text-align: left;
+    text-align: center;
+    text-decoration: none;
     background-color: #3B82F6;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .menu-item:hover {
     background-color: #2563EB;
+}
+
+.menu-item.active {
+    background-color: #2563EB;
+    font-weight: bold;
 }
 
 /* Sidebar footer with buttons */
@@ -91,7 +82,7 @@ body {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
-    background-color: #4447ef;
+    background-color: #EF4444;
     border: none;
     color: white;
     border-radius: 5px;
@@ -105,6 +96,7 @@ body {
 .logout:hover {
     background-color: #DC2626;
 }
+
 
 /* Main display area */
 .main-display {

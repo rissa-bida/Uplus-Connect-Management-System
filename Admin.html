@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <link rel="stylesheet" href="Admin.css">
-    
 </head>
 <body>
     <div class="header">
@@ -17,13 +16,16 @@
                 <div class="profile-picture"></div>
                 <div class="admin-name">Admin</div>
             </div>
-            <div class="menu">
+            <nav class="menu">
                 <button class="menu-item" onclick="showMainDisplay('package')">Tuition Package</button>
                 <button class="menu-item" onclick="showMainDisplay('teacher')">Teacher Configuration</button>
                 <button class="menu-item" onclick="showMainDisplay('student')">Student Configuration</button>
                 <button class="menu-item" onclick="showMainDisplay('other')">Other</button>
+            </nav>
+            <div class="sidebar-footer">
+                <button class="main-page" onclick="location.href='Main Private.html';">Main Page</button>
+                <button class="logout" onclick="location.href='Main Page.html';">Logout</button>
             </div>
-            <button class="logout" onclick="location.href='Main Page.html';">Logout</button>
         </div>
         <div class="main-display" id="main-display">
             <!-- Content for each button will be displayed here -->
