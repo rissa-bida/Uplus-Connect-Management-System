@@ -50,6 +50,11 @@ body {
     margin-bottom: auto;
 }
 
+/* Increase the font size of the arrow */
+.back-icon {
+    font-size: 24px; /* Adjust the size as needed */
+}
+
 /* Menu item buttons */
 .menu-item {
     width: 100%;
@@ -71,7 +76,7 @@ body {
 .logout {
     width: 100%;
     padding: 10px;
-    background-color: #EF4444;
+    background-color: #aab1e7;
     border: none;
     color: white;
     cursor: pointer;
